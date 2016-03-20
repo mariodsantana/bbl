@@ -1,0 +1,15 @@
+.PP
+This module matches against a large list of IP ranges.  The list of IPs is
+maintained in userspace with tools that came with this module.
+
+.TP
+[\fB!\fR] \fB\-\-src\fR
+Match against source IPs
+
+.TP
+[\fB!\fR] \fB\-\-dst\fR
+Match destination IPs
+
+.TP
+[\fB!\fR] \fB\-\-both\fR
+Match source or destination IPs
